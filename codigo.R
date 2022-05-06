@@ -1,17 +1,3 @@
-library("readxl")
-library("dplyr")
-library("tidyr")
-library("naniar")
-library("VIM")
-library("simputation")
-library("missForest")
-library("nortest")
-library("EnvStats")
-library("discretization")
-library("dummies")
-library("fastDummies")
-library("BBmisc")
-
 #1 y 2
 getwd()
 df<-read_excel("dataset examen.xlsx", sheet="DATA")
